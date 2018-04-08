@@ -11,3 +11,11 @@ Año de creacion de rails
 ¿Empresas que utilizan Rails?
 =============
   * Es utilizado por empresas como Airbnb (sitio dedicado al turismo como: alojamientos, experiencias y restaurantes), Basecamp (Plataforma que funciona como organizador y gestor de tareas para equipos de personas que trabajan de manera colaborativa.), **Disney** , **GitHub** , **Hulu** (Algo como netflix), **Kickstarter** (Plataforma de proyectos), **Shopify** (Administrador de negocios), **Twitter** y **las Páginas Amarillas**. También hay muchas tiendas de desarrollo web que se especializan en Rails, como **ENTP** , **thinkbot** , **Pivotal Labs** , **Hashrocket** y **HappyFunCorp** , además de innumerables consultores, formadores y contratistas independientes.
+
+Identificación de CSS del mensaje de error
+=============
+  *  id="error_explanation"
+      1 error prohibited this micropost from being saved:
+        Content is too long (maximum is 140 characters)
+
+  * has_many :microposts belongs_to :user le dan __cardinalidad__ y se comunican entre si (tambien sirve para conectar pk, fk)
